@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ASTARTA</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Aladin&family=Roboto:wght@100&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Aladin&family=Michroma&family=Roboto:wght@100&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <div id="header">
+                <ul>
+                   <li>
+                       <a href="index.php" id="header-title">ASTARTA</a>
+                       <a href="index.php#about-us" style="margin-left: 298px;">Про нас</a>
+                       <a href="services.html">Послуги</a>
+                       <a href="contact.html">Контакти</a>
+                       <a href="portfolio.php">Портфоліо</a>
+                       <p style="margin-left: 275px;">+38 (098) 654 77 40</p>
+                     </li>
+               </ul>
+            </div>
+            <div id="head">
+            <p id="head-font-first">КОНТАКТИ</p>
+            <p id="head-font-second">МИ ЗАВЖДИ НА ЗВ'ЯЗКУ</p>
+            <p id="head-font-third">+38 (098) 654 77 40</p>
+        </div>
+    </header>
+
+    <contact>
+      <form action="send_mail.php" name="form" method="POST">
+        <div id="contact-form">
+            <div id="contact-form-left-column">
+            <input type="text"
+             placeholder="ВАШЕ ІМ'Я*"
+             name="name"
+             id="name"
+             data-reg="^[А-ЯЁ][а-яё]*$">
+
+            <input type="text"
+             placeholder="НОМЕР ТЕЛЕФОНУ*"
+             name="phone"
+             id="phone"
+                data-reg="^((\+3|3|8)+([0-9]){10})$">
+
+            <input type="text"
+             placeholder="EMAIL*"
+             name="email"
+             id="email"
+             data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+
+            <textarea placeholder="ВАШЕ ПОВІДОМЛЕННЯ*" name="message"></textarea>
+
+            <div class="button">
+              <input type="submit" id="button" value="Відправити" />
+            </div>
+
+            </div>
+          </form>
+
+            <div id="contact-form-right-column">
+            <img src="Contacttelegram.png">
+            <p class="contact-form-font-title">КОНТАКТИ</p>
+            <p class="contact-form-font-info">astarta@gmail.com<br><br>+38 (098) 654 77 40</p>
+            <img src="Contactroute.png">
+            <p class="contact-form-font-title">АДРЕСА</p>
+            <p class="contact-form-font-info">Київ,<br>вул. Набережно-Лугова, буд. 8</p>
+            </div>
+        </div>
+    </contact>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.0005187699035!2d25.038169651034803!3d48.533221779155156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736d29057abf5b3%3A0xbe99f0c2dee6921f!2z0JrQvtC70L7QvNC40LnRgdGM0LrQuNC5INC_0L7Qu9GW0YLQtdGF0L3RltGH0L3QuNC5INGE0LDRhdC-0LLQuNC5INC60L7Qu9C10LTQtiDQndCw0YbRltC-0L3QsNC70YzQvdC-0LPQviDRg9C90ZbQstC10YDRgdC40YLQtdGC0YMgwqvQm9GM0LLRltCy0YHRjNC60LAg0L_QvtC70ZbRgtC10YXQvdGW0LrQsMK7!5e0!3m2!1sru!2sua!4v1642441323641!5m2!1sru!2sua" width="1310" height="450" style="border:0; margin-bottom: 50px;" allowfullscreen="" loading="lazy"></iframe>
+    <footer>
+        <div id="footer">
+            <div class="footer-margin" id="footer-cop">
+                <img align="left" src="Copyright.png">
+                <p>ASTARTA archirecture workshop</p>
+            </div>
+            <div class="footer-margin">
+                <p class="footer-title">Зателефонуйте нам</p>
+                <p>+38 (098) 654 77 40</p>
+                <button>Замовити дзвінок</button>
+            </div>
+            <div class="footer-margin">
+                <p class="footer-title">Напишіть нам</p>
+                <p>astarta@gmail.com</p>
+            </div>
+            <div class="footer-margin">
+                <p class="footer-title">Завітайте до нас</p>
+                <p>Kyiv, Ukraine, 04071<br>vul. Naberezhno-Lugova, 8</p>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fce9a50d02.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+</body>
+</html>

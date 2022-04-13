@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style-type: none;
+}
+#header
+{
+    background-color: #2C2C2C;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#header li
+{
+    list-style-type: none;
+    margin-top: 0px;
+}
+#header-title
+{
+    font-size: 24px;
+}
+#header p
+{
+    display: inline-block;
+}
+#header a
+{
+    margin-left: 30px;
+    color: white;
+}
+#grid-container-gallery
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.grid-item-our-projects
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.grid-item-our-projects img
+{
+    width: 640px;
+    height: 336px;
+}
+.our-projects-hover-font
+{
+    position: absolute;
+    width: 640px;
+    height: 336px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+.grid-item-our-projects:hover .our-projects-hover-font
+{
+    opacity: 1;
+}
+#footer
+{
+    height: 170px;
+    background-color: #373737;
+    display: flex;
+    color: white;
+}
+#footer button
+{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    width: 166px;
+    height: 36px;
+    cursor: pointer;
+}
+#footer-cop img
+{
+    position: absolute;
+    margin-top: 3px;
+}
+#footer-cop p
+{
+    width: 260px;
+    padding-left: 20px;
+}
+.footer-margin
+{
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.footer-title
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+}

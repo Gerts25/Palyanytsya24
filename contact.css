@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    list-style-type: none;
+    font-family: Roboto;
+    text-decoration: none;
+}
+input
+{
+    text-indent: 10px;
+}
+input::placeholder
+{
+    color: #B5B5B5;
+    position: absolute;
+    top: 5px;
+}
+#header
+{
+    background-color: #2C2C2C;
+    height: 80px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#header-title
+{
+    font-size: 24px;
+}
+#header p
+{
+    display: inline-block;
+}
+#header a
+{
+    margin-left: 30px;
+    color: white;
+}
+#head
+{
+    background-image: url(Contactbackground.png);
+    height: 380px;
+    color: white;
+    text-align: center;
+}
+#head p
+{
+    font-weight: bold;
+}
+#head-font-first
+{
+    padding-top: 72px;
+    font-size: 36px;
+}
+#head-font-second
+{
+    padding-top: 15px;
+    font-size: 24px;
+}
+#head-font-third
+{
+    padding-top: 10px;
+    font-size: 30px;
+}
+#contact-form
+{
+    height: 410px;
+    display: flex;
+}
+#contact-form input
+{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid #E7E7E7;
+    box-sizing: border-box;
+}
+#contact-form input:focus::-webkit-input-placeholder
+{
+    color: transparent
+}
+#contact-form input:focus::-moz-placeholder
+{
+    color: transparent
+}
+#contact-form input:focus:-moz-placeholder
+{
+    color: transparent
+}
+#contact-form input:focus:-ms-input-placeholder
+{
+    color: transparent
+}
+#contact-form textarea
+{
+    outline: none;
+    resize: none;
+}
+#contact-form textarea:focus::-webkit-input-placeholder
+{
+    color: transparent
+}
+#contact-form textarea:focus::-moz-placeholder
+{
+    color: transparent
+}
+#contact-form textarea:focus:-moz-placeholder
+{
+    color: transparent
+}
+#contact-form textarea:focus:-ms-input-placeholder
+{
+    color: transparent
+}
+.button input[type="submit"] {
+  width: 508px;
+  height: 30px;
+  background-color: #373737;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button input[type="submit"]:hover {
+  background: rgb(0, 0, 0);
+}
+#contact-form textarea {
+  height: 30%;
+  width: 52%;
+  border: 2px solid #E7E7E7;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  text-indent: -10px;
+}
+#contact-form img
+{
+    position: absolute;
+    margin-top: 55px;
+}
+#contact-form-left-column
+{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 870px;
+}
+.contact-form-font-title
+{
+    font-size: 18px;
+    margin-top: 55px;
+    margin-left: 37px;
+}
+.contact-form-font-info
+{
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 37px;
+    color: #767676;
+}
+#footer
+{
+    height: 170px;
+    background-color: #373737;
+    display: flex;
+    color: white;
+}
+#footer button
+{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    width: 166px;
+    height: 36px;
+    cursor: pointer;
+}
+#footer-cop img
+{
+    position: absolute;
+    margin-top: 3px;
+}
+#footer-cop p
+{
+    width: 260px;
+    padding-left: 20px;
+}
+.footer-margin
+{
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.footer-title
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,276 @@
+*
+{
+    margin: 0;
+    list-style-type: none;
+    font-family: Roboto;
+    text-decoration: none;
+}
+input
+{
+    padding: 0 20px;
+}
+#head
+{
+    background-image: url(Mainbackground.jpg);
+    height: 730px;
+    color: white;
+    z-index: -1;
+}
+#head-title-1
+{
+    font-size: 72px;
+    margin-top: 73px;
+    font-family: Michroma;
+}
+#head-title-2
+{
+    font-size: 36px;
+}
+#head img
+{
+    display: block;
+    margin: 308px auto;
+}
+#header
+{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#header p
+{
+    display: inline-block;
+    margin-left: 316px;
+}
+#header a
+{
+    margin-left: 30px;
+    color: white;
+}
+#about-us
+{
+    height: 1150px;
+}
+#about-us-title
+{
+    margin-top: 68px; 
+    margin-bottom: 44px; 
+    font-size: 36px; 
+    font-weight: bold; 
+}
+.about-us-font
+{
+    width: 600px;
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 18px;
+    text-align: left;
+}
+#grid-container-about-us
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#grid-container-about-us img
+{
+    width: 350px;
+}
+.grid-item-about-us
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 40px 30px 40px;
+    font-size: 18px;
+    text-align: left;
+}
+#our-projects
+{
+    height: 1230px;
+    text-align: center;
+}
+#our-projects p
+{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+#our-projects-a
+{
+    font-size: 18px;
+    border: black solid 1px;
+    border-radius: 30px;
+    padding: 5px 61px 9px 61px;
+    cursor: pointer;
+}
+#our-projects-a:hover
+{
+    background-color: black;
+    color: white;
+    -webkit-transition: all .50s;
+    -o-transition: all .50s;
+    transition: all .50s;
+}
+#grid-container-our-projects
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+}
+.grid-item-our-projects img
+{
+    width: 640px;
+    height: 336px;
+}
+.grid-item-our-projects
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.our-projects-hover-font
+{
+    position: absolute;
+    width: 640px;
+    height: 336px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+.grid-item-our-projects:hover .our-projects-hover-font
+{
+    opacity: 1;
+}
+#stages
+{
+    height: 450px;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 70px;
+}
+#grid-container-stages
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+#grid-container-stages img
+{
+    width: 100px;
+}
+.grid-item-stages
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 5.5px 8px 5.5px;
+    font-size: 18px;
+    margin-bottom: 65px;
+}
+.grid-item-stages p
+{
+    margin-top: 15px;
+}
+#call-form
+{
+    height: 450px;
+    margin-top: 93px;
+    font-size: 18px;
+    text-align: center;
+}
+#call-form-inner
+{
+    display: flex;
+    align-items: center;
+    width: 912px;
+    height: 115px;
+    margin-top: 30px;
+    border: black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.call-form-input
+{
+    width: 266px;
+    height: 35px;
+    margin-left: 40px;
+    outline: none;
+    border: 1px solid #848484;
+    box-sizing: border-box;
+}
+.call-form-input:focus::-webkit-input-placeholder
+{
+    color: transparent
+}
+.call-form-input:focus::-moz-placeholder 
+{
+    color: transparent
+}
+.call-form-input:focus:-moz-placeholder
+{
+    color: transparent
+}
+.call-form-input:focus:-ms-input-placeholder
+{
+    color: transparent
+}
+#call-form-input-margin
+{
+    margin-left: 0;
+}
+.call-form-button
+{
+    width: 220px;
+    height: 35px;
+    margin-left: 40px;
+    outline: none;
+    color: white;
+    background-color: #373737;
+    border: none;
+    cursor: pointer;
+}
+#footer
+{
+    height: 202px;
+    background-color: #373737;
+    display: flex;
+    color: white;
+}
+#footer button
+{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    width: 166px;
+    height: 36px;
+    cursor: pointer;
+}
+#footer-cop img
+{
+    position: absolute;
+    margin-top: 3px;
+}
+#footer-cop p
+{
+    width: 260px;
+    padding-left: 20px;
+}
+.footer-margin
+{
+    margin-top: 63px;
+    margin-left: 70px;
+}
+.footer-title
+{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
